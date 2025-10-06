@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-UK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./dist/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" href="./dist/css/main.css">
+</head>
+<body>
+  <main>
+    <section class="rating-state">
+      <img src="./dist/images/icon-star.svg" alt="img-star">
+
+      <h1>How did we do?</h1>
+
+      <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+
+      <div class="rating-buttons">
+        <div>
+          <input type="radio" name="rating" id="one" value="1">
+          <label for="one" class="rating-label">1</label>
+        </div>
+        <div>
+          <input type="radio" name="rating" id="two" value="2">
+          <label for="two" class="rating-label">2</label>
+        </div>
+        <div>
+          <input type="radio" name="rating" id="three" value="3">
+          <label for="three" class="rating-label">3</label>
+        </div>
+        <div>
+          <input type="radio" name="rating" id="four" value="4">
+          <label for="four" class="rating-label">4</label>
+        </div>
+        <div>
+          <input type="radio" name="rating" id="five" value="5">
+          <label for="five" class="rating-label">5</label>
+        </div>
+        
+      </div>
+
+      <button class="submit-button">Submit</button>
+    </section>
+
+
+    <section class="thank-you-state">
+      <img src="./dist/images/illustration-thank-you.svg">
+
+      <p class="selected-rating">You selected <span class="selected-value"></span> out of 5</p>
+
+      <h2>Thank you!</h2>
+  
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+    </section>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ehi Ejakhian</a>.
+  </div>
+  <script src="./dist/js/main.js"></script>
+</body>
+</html>
